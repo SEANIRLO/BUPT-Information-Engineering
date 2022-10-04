@@ -17,5 +17,5 @@
 
 ## Overview of the Program
 <p align="center">
-  <img width="900" height="600" src="/doc/Program.png">
+  <img width="810" height="540" src="/doc/Program.png">
 </p>
