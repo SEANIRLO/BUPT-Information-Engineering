@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "title",
+      "value": "About"
+    },
+    {
+      "name": "aboutPage_title_primary",
+      "value": "BBU Recognization Online "
+    },
+    {
+      "name": "aboutPage_title_secondary",
+      "value": "Version: 0.0.0 beta"
+    },
+    {
+      "name": "copyright_text",
+      "value": "BUPT SICE All rights reserved. ©2021-2022"
+    },
+    {
+      "name": "technicalSupport_text",
+      "value": "Technical support: Sean XIAO"
+    }
+  ]
+}

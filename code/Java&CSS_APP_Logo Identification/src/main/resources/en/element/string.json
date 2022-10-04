@@ -1,0 +1,128 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "BBU Recognization Online"
+    },
+    {
+      "name": "mainability_description",
+      "value": "hap sample empty page"
+    },
+    {
+      "name": "LoginAbility",
+      "value": "LOGIN\\REGISTER"
+    },
+    {
+      "name": "DetectAbility",
+      "value": "DETECT"
+    },
+    {
+      "name": "text",
+      "value": "This is About Page"
+    },
+    {
+      "name": "back_button",
+      "value": "Back"
+    },
+    {
+      "name": "navigation_button",
+      "value": "Ability Slice Navigation"
+    },
+    {
+      "name": "second_text",
+      "value": "This is History Page"
+    },
+    {
+      "name": "mail",
+      "value": "Mail"
+    },
+    {
+      "name": "invalid_mail",
+      "value": "Invalid mail"
+    },
+    {
+      "name": "password",
+      "value": "Password"
+    },
+    {
+      "name": "invalid_length_password",
+      "value": "Invalid length password"
+    },
+    {
+      "name": "login",
+      "value": "Login"
+    },
+    {
+      "name": "logout",
+      "value": "Log out"
+    },
+    {
+      "name": "register",
+      "value": "Register"
+    },
+    {
+      "name": "about",
+      "value": "About"
+    },
+    {
+      "name": "clickedRegister",
+      "value": "You clicked Register"
+    },
+    {
+      "name": "success",
+      "value": "SUCCESS"
+    },
+    {
+      "name": "loginSuccess",
+      "value": "Login Success"
+    },
+    {
+      "name": "fail",
+      "value": "FAIL"
+    },
+    {
+      "name": "loginFail",
+      "value": "Error mail or password"
+    },
+    {
+      "name": "choose_image_button",
+      "value": "Select image"
+    },
+    {
+      "name": "detect",
+      "value": "DETECT"
+    },
+    {
+      "name": "history",
+      "value": "View History"
+    },
+    {
+      "name": "detectNoInternet",
+      "value": "No Internet Connection"
+    },
+    {
+      "name": "detectFail",
+      "value": "No Result"
+    },
+    {
+      "name": "warning",
+      "value": "Warning"
+    },
+    {
+      "name": "confirm_logout",
+      "value": "Log out?"
+    },
+    {
+      "name": "confirm",
+      "value": "Confirm"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "detecthistorydataability_description",
+      "value": "hap sample empty provider"
+    }
+  ]
+}

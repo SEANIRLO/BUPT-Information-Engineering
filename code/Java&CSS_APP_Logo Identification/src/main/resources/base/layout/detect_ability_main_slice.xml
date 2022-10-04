@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+
+<DependentLayout
+xmlns:ohos="http://schemas.huawei.com/res/ohos"
+ohos:height="match_parent"
+ohos:width="match_parent"
+ohos:background_element="$color:colorSubBackground">
+
+    <include
+        ohos:id="$+id:detect_title_bar"
+        ohos:height="$float:defaultHeight"
+        ohos:width="match_parent"
+        ohos:align_parent_top="true"
+        layout="$layout:detect_title_bar"/>
+
+    <ScrollView
+        ohos:id="$+id:detectScroll"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:below="$id:detect_title_bar"
+        ohos:bottom_margin="56vp"
+        ohos:orientation="vertical"
+        ohos:top_margin="30vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$color:colorSubBackground"
+            ohos:orientation="vertical">
+
+            <Image
+                ohos:id="$+id:show_chosen_image"
+                ohos:height="200vp"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                />
+
+            <Button
+                ohos:id="$+id:choose_img_button"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:layout_alignment="center"
+                ohos:start_margin="24vp"
+                ohos:padding="10vp"
+                ohos:end_margin="24vp"
+                ohos:background_element="$graphic:button_background"
+                ohos:text="$string:choose_image_button"
+                ohos:text_size="16fp"
+                ohos:top_margin="20vp"/>
+
+            <Button
+                ohos:id="$+id:detect_button"
+                ohos:width="match_parent"
+                ohos:height="match_content"
+                ohos:layout_alignment="center"
+                ohos:background_element="$graphic:btn_background"
+                ohos:start_margin="$float:maxMargin"
+                ohos:end_margin="$float:maxMargin"
+                ohos:bottom_margin="$float:maxMargin"
+                ohos:text="$string:detect"
+                ohos:text_alignment="center"
+                ohos:text_color="#F2FFFFFF"
+                ohos:text_size="$float:default_text_size"
+                ohos:top_margin="20vp"
+                ohos:padding="10vp"/>
+
+            <Text
+                ohos:id="$+id:resultText"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:multiple_lines="true"
+                ohos:padding="10vp"
+                ohos:text_alignment="center"
+                ohos:text_size="40fp"/>
+        </DirectionalLayout>
+    </ScrollView>
+
+    <DirectionalLayout
+        ohos:id="$+id:bottom"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:align_parent_bottom="true"
+        ohos:bottom_margin="$float:maxMargin"
+        ohos:horizontal_center="true"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:logoutText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:logout"
+            ohos:text_alignment="center"
+            ohos:text_color="#0A59F7"
+            ohos:text_size="14fp"/>
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="1vp"
+            ohos:background_element="$color:list_divider_color"
+            ohos:end_margin="8vp"
+            ohos:start_margin="8vp"/>
+
+        <Text
+            ohos:id="$+id:historyText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:history"
+            ohos:text_alignment="center"
+            ohos:text_color="#0A59F7"
+            ohos:text_size="14fp"/>
+    </DirectionalLayout>
+
+</DependentLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2021 Huawei Device Co., Ltd.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:ability_main_landscape"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:appBar"
+        ohos:height="$float:height_appBar"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <DirectionalLayout
+            ohos:id="$+id:appBar_backButton_touchTarget"
+            ohos:height="$float:height_appBar_backButton_touchTarget"
+            ohos:width="$float:width_appBar_backButton_touchTarget"
+            ohos:alignment="center"
+            ohos:start_margin="$float:leftMargin_appBar_backButton_touchTarget">
+
+            <Image
+                ohos:id="$+id:appBar_backButton"
+                ohos:height="$float:size_appBar_backButton"
+                ohos:width="$float:size_appBar_backButton"
+                ohos:image_src="$graphic:back"
+                ohos:layout_direction="locale"/>
+        </DirectionalLayout>
+
+        <Text
+            ohos:id="$+id:appBar_title"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:start_margin="$float:leftMargin_appBar_title"
+            ohos:text="$string:title"
+            ohos:text_size="$float:textSize_title"/>
+    </DirectionalLayout>
+    <DependentLayout
+        ohos:id="$+id:aboutPageMain"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:min_height="$float:aboutPage_minHeight"
+        ohos:orientation="vertical">
+        <DirectionalLayout
+            ohos:id="$+id:aboutPageUpperPart"
+            ohos:height="$float:height_aboutPage_upperPart"
+            ohos:width="match_parent"
+            ohos:align_parent_top="true"
+            ohos:alignment="horizontal_center"
+            ohos:orientation="vertical">
+
+            <DirectionalLayout
+                ohos:id="$+id:aboutPageIconBackground"
+                ohos:height="$float:size_aboutPage_iconBackground"
+                ohos:width="$float:size_aboutPage_iconBackground"
+                ohos:alignment="center"
+                ohos:background_element="$graphic:icon_background"
+                ohos:top_margin="$float:topMargin_aboutPage_iconBackground">
+
+                <Image
+                    ohos:id="$+id:aboutPageIcon"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:icon"/>
+            </DirectionalLayout>
+
+            <Text
+                ohos:id="$+id:aboutPageTitlePrimary"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:aboutPage_title_primary"
+                ohos:text_color="$color:color_aboutPage_title_primary"
+                ohos:text_size="$float:size_aboutPage_title_primary"
+                ohos:top_margin="$float:topMargin_aboutPage_title_primary"/>
+
+            <Text
+                ohos:id="$+id:aboutPageTitleSecondary"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:aboutPage_title_secondary"
+                ohos:text_color="$color:color_aboutPage_title_secondary"
+                ohos:text_size="$float:size_aboutPage_title_secondary"/>
+        </DirectionalLayout>
+    </DependentLayout>
+    <DirectionalLayout
+        ohos:id="$+id:bottom"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:align_parent_bottom="true"
+        ohos:bottom_margin="$float:maxMargin"
+        ohos:horizontal_center="true"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:copyrightText"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:layout_direction="locale"
+            ohos:text="$string:copyright_text"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:textColor_secondary"
+            ohos:text_size="$float:textSize_body3"/>
+    </DirectionalLayout>
+</DependentLayout>

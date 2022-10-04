@@ -1,0 +1,107 @@
+{
+  "app": {
+    "bundleName": "com.example.BBURecog",
+    "version": {
+      "code": 2000000,
+      "name": "2.0"
+    }
+  },
+  "deviceConfig": {
+    "phone": {
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
+  },
+  "module": {
+    "package": "com.example.bburecog",
+    "name": "com.example.bburecog.LoginAbility",
+    "reqCapabilities": [
+      "video_support"
+    ],
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "icon": "$media:icon",
+        "name": "com.example.bburecog.LoginAbility",
+        "description": "$string:mainability_description",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard",
+        "orientation": "portrait",
+        "visible": true,
+        "formsEnabled": false,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "com.example.bburecog.DetectAbility",
+        "type": "page",
+        "launchType": "standard",
+        "orientation": "portrait",
+        "visible": true,
+        "formsEnabled": false,
+        "skills": [
+          {
+            "actions": [
+              "DETECT_ABILITY_HISTORY_SLICE_ACTION"
+            ]
+          }
+        ]
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC"
+      },
+      {
+        "name": "ohos.permission.WRITE_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.READ_USER_STORAGE"
+      },
+      {
+        "name": "ohos.dataability.CustomPermission"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.MANAGE_WIFI_CONNECTION"
+      },
+      {
+        "name": "ohos.permission.SET_WIFI_INFO"
+      },
+      {
+        "name": "ohos.permission.GET_WIFI_INFO"
+      }
+    ],
+    "defPermissions": [
+      {
+        "name": "com.example.bburecog.DataAbilityShellProvider.PROVIDER"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="$graphic:dialog_bg"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:dialog_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_padding="$float:defaultPadding"
+        ohos:end_padding="$float:maxPadding"
+        ohos:multiple_lines="true"
+        ohos:start_padding="$float:maxPadding"
+        ohos:text_alignment="center"
+        ohos:text_color="#ffffff"
+        ohos:text_size="$float:appbar_title_text_size"
+        ohos:top_margin="$float:maxMargin"/>
+
+    <Text
+        ohos:id="$+id:dialog_sub_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_margin="$float:defaultMargin"
+        ohos:bottom_padding="$float:defaultPadding"
+        ohos:end_padding="$float:maxPadding"
+        ohos:multiple_lines="true"
+        ohos:start_padding="$float:maxPadding"
+        ohos:text_alignment="center"
+        ohos:text_color="#ffffff"
+        ohos:text_size="$float:default_text_size"
+        ohos:top_margin="$float:maxMargin"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:bottom"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:align_parent_bottom="true"
+        ohos:bottom_margin="$float:maxMargin"
+        ohos:horizontal_center="true"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:id="$+id:cancelButton"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="$float:defaultMargin"
+            ohos:bottom_padding="$float:defaultPadding"
+            ohos:end_padding="$float:maxPadding"
+            ohos:start_padding="$float:maxPadding"
+            ohos:text="$string:cancel"
+            ohos:text_alignment="center"
+            ohos:text_color="#ffffff"
+            ohos:text_size="$float:default_text_size"
+            ohos:top_margin="$float:maxMargin"/>
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="1vp"
+            ohos:background_element="$color:list_divider_color"
+            ohos:end_margin="8vp"
+            ohos:start_margin="8vp"/>
+
+        <Button
+            ohos:id="$+id:confirmButton"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="$float:defaultMargin"
+            ohos:bottom_padding="$float:defaultPadding"
+            ohos:end_padding="$float:maxPadding"
+            ohos:start_padding="$float:maxPadding"
+            ohos:text="$string:confirm"
+            ohos:text_alignment="center"
+            ohos:text_color="#ffffff"
+            ohos:text_size="$float:default_text_size"
+            ohos:top_margin="$float:maxMargin"/>
+    </DirectionalLayout>
+</DirectionalLayout>
