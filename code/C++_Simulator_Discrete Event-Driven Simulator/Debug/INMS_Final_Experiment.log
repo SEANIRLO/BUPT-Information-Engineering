@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.h(69,31): warning C4018: “>”: 有符号/无符号不匹配
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.h(79,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.h(91,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.h(97,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.h(98,26): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.cpp(14,72): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.cpp(14,67): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.cpp(170,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.cpp(171,22): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.cpp(216,22): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\main.cpp(260,22): warning C4018: “<”: 有符号/无符号不匹配
+  INMS_Final_Experiment.vcxproj -> C:\Users\Siri小姐\Desktop\INMS_Final_Experiment\INMS_Final_Experiment\Debug\INMS_Final_Experiment.exe
