@@ -12,7 +12,7 @@
     - Arduino
     - Multisim (Circuit Design)
     - Quartus, Keil uvision 5 (FPGA Development)
-    - KiCAD & Eagle (PCB Design)
+    - KiCAD, Eagle (PCB Design)
     - Matlab, Mathematica, SPSS, Lingo (Mathematical Modeling)
 
 ## Overview of the Program
