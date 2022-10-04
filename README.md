@@ -1,7 +1,7 @@
 # BUPT-Information-Engineering
 ## Introduction
 * This is the codebase of my B.Eng. program that specializes in information engineering.
-* This codebase contains some representative courseworks.
+* This codebase contains some representative courseworks. Please refer to the `code` folder.
 * Skills that I have developed during this B.Eng. program:
   - Programming Languages
     - Python (Data Processing and Machine Learning)
@@ -13,9 +13,9 @@
     - Multisim (Circuit Design)
     - Quartus, Keil uvision 5 (FPGA Development)
     - KiCAD & Eagle (PCB Design)
-    - Matlab, Mathematica, SPSS, Lingo (Mathematical Modeling and Solving)
+    - Matlab, Mathematica, SPSS, Lingo (Mathematical Modeling)
 
-## Overview of Courses
+## Overview of the Program
 <p align="center">
-  <img width="360" height="240" src="/Program.pdf">
+  <img width="900" height="600" src="/doc/Program.png">
 </p>
