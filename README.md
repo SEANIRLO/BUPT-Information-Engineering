@@ -18,5 +18,5 @@
 ## Overview of the Program
 For higher resolution, please refer to [Program.pdf](doc/Program.pdf).
 <p align="center">
-  <img width="840" height="560" src="/doc/Program.png">
+  <img width="810" height="540" src="/doc/Program.png">
 </p>
