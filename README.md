@@ -1,6 +1,6 @@
 # BUPT-Information-Engineering
 ## Introduction
-* This is the codebase of my B.Eng. program that specializes in information engineering.
+* This is the codebase of my B.Eng. program which specializes in information engineering.
 * This codebase contains some representative courseworks. Please refer to the `code` folder.
 * Skills that I have developed during this B.Eng. program:
   - Programming Languages
