@@ -17,6 +17,7 @@
 
 ## Overview of the Program
 For higher resolution, please refer to [Program.pdf](doc/Program.pdf).
+Update: Natural Languague Understanding (94), Graduation Project (Excellent)
 <p align="center">
   <img width="810" height="540" src="/doc/Program.png">
 </p>
