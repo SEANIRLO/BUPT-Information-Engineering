@@ -1,4 +1,4 @@
-# BUPT-Information-Engineering
+# BUPT-BEng-InfoEngineering
 ## Introduction
 * This is the codebase of my B.Eng. program which specializes in information engineering.
 * This codebase contains some representative courseworks. Please refer to the `code` folder.
